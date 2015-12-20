@@ -1,0 +1,14 @@
+workspace '../Kitz.xcworkspace'
+xcodeproj 'Kitz.xcodeproj'
+
+platform :ios, '8.0'
+
+use_frameworks!
+
+target :'Kitz' do
+
+	pod 'Appz',            :path => '../../Appz'
+	pod 'Datez',           :path => '../../Datez'
+	pod 'Notificationz',   :path => '../../Notificationz'
+	pod 'Storez',          :path => '../../Storez'
+end
