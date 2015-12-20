@@ -7,8 +7,8 @@ use_frameworks!
 
 target :'Kitz' do
 
-	pod 'Appz',            :path => '../../Appz'
-	pod 'Datez',           :path => '../../Datez'
-	pod 'Notificationz',   :path => '../../Notificationz'
-	pod 'Storez',          :path => '../../Storez'
+	pod 'Appz',            :git => 'https://github.com/SwiftKitz/Appz.git'
+	pod 'Datez',           :git => 'https://github.com/SwiftKitz/Datez.git'
+	pod 'Notificationz',   :git => 'https://github.com/SwiftKitz/Notificationz.git'
+	pod 'Storez',          :git => 'https://github.com/SwiftKitz/Storez.git'
 end
