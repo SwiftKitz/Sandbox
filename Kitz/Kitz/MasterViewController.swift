@@ -11,13 +11,27 @@ import UIKit
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
-    var objects = [AnyObject]()
+    var objects = [
+        AppzViewController(),
+        DatezViewController(),
+        NotificationzViewController(),
+        StorezViewController(),
+    ]
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        guard let navController = segue.destinationViewController as? UINavigationController
+            , let viewController = navController.viewControllers.first as? DetailViewController
+            , let cell = sender as? UITableViewCell
+            else
+        {
+            return
+        }
+        
+        viewController.viewController = objects[cell.tag]
+    }
 
     // MARK: - Table View
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
-    }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return objects.count
@@ -26,8 +40,10 @@ class MasterViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
 
-        let object = objects[indexPath.row] as! NSObject
-        cell.textLabel!.text = object.description
+        let viewController = objects[indexPath.row]
+        cell.tag = indexPath.row
+        cell.textLabel!.text = viewController.title
+        
         return cell
     }
 }

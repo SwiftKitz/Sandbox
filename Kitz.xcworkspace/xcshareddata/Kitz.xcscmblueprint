@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A035C0034A50D2D12AF81079CE209DBB2991BEF3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A035C0034A50D2D12AF81079CE209DBB2991BEF3" : 0,
+    "B3B7AC295F1E8DA7191B81C76183DD6ACC6E4909" : 0,
+    "3E002A41DB98BD363DF9DD0C3D43940BA8931F7C" : 0,
+    "CC611DBABBE67D35E6E7C5E5D87222951D0E327D" : 0,
+    "328B3DEA7FD21CA138DAB5124D352EDEBD1F48A7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31CA0D01-89B8-46EE-8F12-770D7557475A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A035C0034A50D2D12AF81079CE209DBB2991BEF3" : "sandbox\/",
+    "B3B7AC295F1E8DA7191B81C76183DD6ACC6E4909" : "Datez\/",
+    "3E002A41DB98BD363DF9DD0C3D43940BA8931F7C" : "Notificationz\/",
+    "CC611DBABBE67D35E6E7C5E5D87222951D0E327D" : "Appz\/",
+    "328B3DEA7FD21CA138DAB5124D352EDEBD1F48A7" : "Storez\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Kitz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kitz.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftKitz\/Storez.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "328B3DEA7FD21CA138DAB5124D352EDEBD1F48A7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftKitz\/Notificationz.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E002A41DB98BD363DF9DD0C3D43940BA8931F7C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftKitz\/Sandbox.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A035C0034A50D2D12AF81079CE209DBB2991BEF3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftKitz\/Datez.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B3B7AC295F1E8DA7191B81C76183DD6ACC6E4909"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftKitz\/Appz.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC611DBABBE67D35E6E7C5E5D87222951D0E327D"
+    }
+  ]
+}
